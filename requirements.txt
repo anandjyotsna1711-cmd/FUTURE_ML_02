@@ -1,0 +1,6 @@
+@"
+pandas
+scikit-learn
+matplotlib
+joblib
+"@ | Set-Content requirements.txt

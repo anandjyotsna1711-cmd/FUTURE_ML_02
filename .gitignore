@@ -1,0 +1,14 @@
+@"
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Keep original support-ticket data private
+data/
+
+# Trained model files can be regenerated
+models/*.joblib
+"@ | Set-Content .gitignore
+models/
